@@ -1,4 +1,5 @@
 import About from "./components/About";
+import Contact from "./components/Contact";
 import Experience from "./components/Experiencia";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
@@ -18,6 +19,7 @@ function App() {
         <Tecnologies />
         <Experience />
         <Projects />
+        <Contact />
       </div>
     </div>
   );
