@@ -2,7 +2,7 @@ import profilePicture from "../assets/images/FotoPerfilLinkedin.jpg";
 
 const Hero = () => {
   return (
-    <div className="border-b border-neutral-900 pb-4 lg:mb-35">
+    <section className="border-b border-neutral-900 pb-4 lg:mb-35">
       <div className="flex flex-wrap">
         <div className="w-full lg:w-1/2">
           <div className="w-full flex-col items-center lg:items-start">
@@ -33,7 +33,7 @@ const Hero = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 export default Hero;
