@@ -1,4 +1,5 @@
 import aboutImage from "../assets/images/FotoPerfilLinkedin.jpg";
+import { motion } from "framer-motion";
 
 const About = () => {
   return (
@@ -7,12 +8,22 @@ const About = () => {
         About <span className="text-neutral-500">Me</span>
       </h2>
       <div className="flex flex-wrap">
-        <div className="w-full lg:w-1/2 lg:p-8">
+        <motion.div
+          whileInView={{ opacity: 1, x: 0 }}
+          initial={{ opacity: 0, x: -100 }}
+          transition={{ duration: 0.5 }}
+          className="w-full lg:w-1/2 lg:p-8"
+        >
           <div className="flex items-center justify-center">
             <img className="rounded-2xl" src={aboutImage} alt="about" />
           </div>
-        </div>
-        <div className="w-full lg:w-1/2">
+        </motion.div>
+        <motion.div
+          whileInView={{ opacity: 1, x: 0 }}
+          initial={{ opacity: 0, x: 100 }}
+          transition={{ duration: 0.5 }}
+          className="w-full lg:w-1/2"
+        >
           <div className="flex flex-col justify-center lg:justify-start gap-y-3">
             <p className="mt-2 max-w-xl pt-6">
               Olá! Tenho 27 anos e sou um desenvolvedor full stack apaixonado
@@ -61,7 +72,7 @@ const About = () => {
               construir algo incrível juntos!
             </p>
           </div>
-        </div>
+        </motion.div>
       </div>
     </section>
   );
