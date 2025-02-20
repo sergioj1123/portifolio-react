@@ -1,50 +1,56 @@
-# React + TypeScript + Vite
+# Meu Portfólio - Desenvolvedor Full Stack
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este é o meu portfólio pessoal desenvolvido com **React**, **TypeScript**, **Tailwind CSS** e **Framer Motion**. O objetivo deste projeto é apresentar um pouco sobre minha trajetória profissional, experiência, cursos realizados, tecnologias que utilizo e minhas redes sociais para futuros contatos.
 
-Currently, two official plugins are available:
+## Tecnologias Utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **React**: Biblioteca JavaScript para construção de interfaces de usuário.
+- **TypeScript**: Superset de JavaScript que adiciona tipagem estática, proporcionando maior segurança e produtividade.
+- **Tailwind CSS**: Framework de utilitários CSS que facilita a criação de layouts responsivos e estilos rápidos.
+- **Framer Motion**: Biblioteca de animações para React, utilizada para criar transições e efeitos dinâmicos na página.
 
-## Expanding the ESLint configuration
+## Funcionalidades
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- **Sobre Mim**: Seção apresentando informações sobre minha trajetória profissional.
+- **Experiência**: Lista das experiências passadas.
+- **Experiência**: List alguns de meus projetos desenvolvidos.
+- **Cursos**: Exposição dos cursos e especializações realizadas ao longo da minha carreira.
+- **Tecnologias**: Tecnologias e ferramentas que utilizo no meu trabalho de desenvolvimento full stack.
+- **Redes Sociais**: Links para minhas redes sociais e formas de entrar em contato.
 
-- Configure the top-level `parserOptions` property like this:
+## Instalação
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+Para rodar o projeto localmente, siga os passos abaixo:
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+1. Clone o repositório:
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+   ```bash
+   git clone https://github.com/sergioj1123/portifolio-react.git
+   ```
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+2. Acesse o diretório do projeto:
+
+   ```bash
+   cd portifolio-react
+
+   ```
+
+3. Instale as dependências:
+
+   ```bash
+   npm install
+   ```
+
+4. Inicie o servidor de desenvolvimento:
+
+   ```bash
+   npm run dev
+   ```
+
+## Contato
+
+Siga-me nas minhas redes sociais para entrar em contato:
+
+- **GitHub**: [https://github.com/sergioj1123](https://github.com/sergioj1123)
+- **LinkedIn**: [https://www.linkedin.com/in/sergio-junior-portfolio](https://www.linkedin.com/in/sergio-junior-portfolio)
+- **Email**: sergiojunior9@hotmail.com
