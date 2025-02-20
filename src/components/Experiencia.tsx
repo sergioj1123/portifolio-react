@@ -2,35 +2,56 @@ import { motion } from "framer-motion";
 
 const allExperience = [
   {
-    title: "Experience",
-    company: "Company",
-    year: "2021 - 2022",
+    title: "Desenvolvedor Full Stack",
+    company: "Freelancer",
+    year: "2024 - Atual",
     description:
-      "I have worked in different companies and projects, which have allowed me to acquire knowledge and experience in different areas of software development.",
-    Tecnologies: ["HTML", "CSS", "JavaScript", "React", "Vue"],
-  },
-  {
-    title: "Experience",
-    company: "Company",
-    year: "2020 - 2022",
-    description:
-      "I have worked in different companies and projects, which have allowed me to acquire knowledge and experience in different areas of software development.",
+      "Trabalho como freelancer full stack, ajudando meus clientes a desenvolver aplicações e páginas inovadoras que impulsionam seus negócios. Utilizo as tecnologias mais populares para entregar soluções de alta qualidade e escalabilidade, garantindo desempenho e eficiência.",
     Tecnologies: [
       "HTML",
       "CSS",
-      "JavaScript",
+      "JQuery",
       "React",
-      "Vue",
+      "JavaScript",
       "TypeScript",
       "Bootstrap",
-      "Tailwind CSS",
-      "SQL",
-      "PostgreSQL",
+      "SASS",
+      "Less",
+      "Gulp",
+      "VueJS",
       "Java",
       "Spring Boot",
-      "Python",
-      "GitHub",
+      "Git",
+      "Github",
+      "WebPack",
+      "Babel",
+      "Cypress",
+      "SQL",
+      "UX (User Experience)",
+      "Desenvolvimento Ágil",
     ],
+  },
+  {
+    title: "Coordenação da Análise de Suporte",
+    company: "Cartsys",
+    year: "Janeiro/2022 - Agosto/2022",
+    description:
+      "Identifiquei problemas e inconsistências no sistema, categorizei a urgência dos casos e coordenei uma equipe de 6 integrantes, atuando também como referência técnica para o time. Além disso, realizei manutenção e consultas em banco de dados do tipo SQL.",
+    Tecnologies: [
+      "SQL",
+      "Resolução de problemas",
+      "Coordenação de equipe",
+      "Atendimento ao cliente",
+      "Manutenção de banco de dados",
+    ],
+  },
+  {
+    title: "Analista de Suporte",
+    company: "Cartsys",
+    year: "Dezembro/2019 - Dezembro/2021",
+    description:
+      "Realizei atendimento direto com clientes por meio de chats e telefonemas, auxiliando no esclarecimento de dúvidas e garantindo um suporte eficiente. Além disso, fui responsável pela configuração de ambientes operacionais.",
+    Tecnologies: ["SQL", "Resolução de problemas", "Atendimento ao cliente"],
   },
 ];
 
@@ -43,7 +64,7 @@ const Experience = () => {
         transition={{ duration: 1.5 }}
         className="my-20 text-center text-4xl"
       >
-        Experience
+        Experiência
       </motion.h2>
       <div>
         {allExperience.map((experience, index) => (

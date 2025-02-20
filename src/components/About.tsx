@@ -1,11 +1,11 @@
-import aboutImage from "../assets/images/FotoPerfilLinkedin.jpg";
+import aboutImage from "../assets/images/FotoPerfilLinkedin2.jpg";
 import { motion } from "framer-motion";
 
 const About = () => {
   return (
     <section className="border-b border-neutral-900 pb-4">
       <h2 className="my-20 text-center text-4xl">
-        About <span className="text-neutral-500">Me</span>
+        Sobre <span className="text-neutral-500">Mim</span>
       </h2>
       <div className="flex flex-wrap">
         <motion.div
@@ -25,7 +25,7 @@ const About = () => {
           className="w-full lg:w-1/2"
         >
           <div className="flex flex-col justify-center lg:justify-start gap-y-3">
-            <p className="mt-2 max-w-xl pt-6">
+            <p className="mt-2 pt-6">
               Olá! Tenho 27 anos e sou um desenvolvedor full stack apaixonado
               por tecnologia, dedicado a criar experiências digitais inovadoras.
             </p>
